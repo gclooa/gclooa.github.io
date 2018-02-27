@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="gclooa.github.io" resolutions="1x" timestamp="1518095642405">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="gclooa.github.io" resolutions="1x" timestamp="1519725582679">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="4017867701" ref="index"/>
+    <file name="index.css" crc="454494312" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -12,10 +12,13 @@
     <file name="require.js" crc="4157109226" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="sky.jpg" crc="161531629" ref="index">
+    <file name="always-here-favicon.ico" crc="67738019" ref="index"/>
+    <file name="nami.jpg" crc="3961292382" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="webicon.png" crc="355325145" ref="index">
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="4217847212" seo="true" mt="1518095631599" redirect="true"/>
+  <file name="index.html" crc="219828814" seo="true" mt="1519725541924" redirect="true"/>
 </manifest>
