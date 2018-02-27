@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="gclooa.github.io" resolutions="1x" timestamp="1519730505017">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="gclooa.github.io" resolutions="1x" timestamp="1519730895851">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="232989779" ref="index"/>
+    <file name="index.css" crc="223926651" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -33,5 +33,5 @@
     <file name="u767_states.png" crc="3763962032" ref="index"/>
     <file name="u767_states-r.png" crc="9483653" ref="index"/>
   </folder>
-  <file name="index.html" crc="3800972340" seo="true" mt="1519730498673" redirect="true"/>
+  <file name="index.html" crc="4183697143" seo="true" mt="1519730851724" redirect="true"/>
 </manifest>
