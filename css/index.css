@@ -1,10 +1,33 @@
+@font-face {
+    font-family: gohufont;
+    src: url(font/gohufont.bdf);
+}
+
 body {
     background-color: black;
+}
+
+p {
+    font-family: gohufont;
+    font-size: 11px;
+    color: white;
+}
+
+a:link, a:visited {
+    background-color: #ff6e26;
+    color: black;
+    padding: 4px 6px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: #ffb526;
 }
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: auto;
+    width: 640px;
 }
