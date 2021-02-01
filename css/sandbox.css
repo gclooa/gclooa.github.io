@@ -64,6 +64,33 @@ a#l6:hover, a#l6:active {
     float:right;
 }
 
+.bg-left {
+    margin: 0;
+    position: absolute;
+    height: 92vh;
+    width: 100%
+    background-color: #FF6663;
+}
+
+@keyframes logo-default {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(315deg);}
+}
+
+@keyframes logo-lv {
+    from {transform: rotate(315deg);}
+    to {transform: rotate(0deg);}
+}
+
 .logo {
+    animation-name: logo-default;
+    animation-duration: 1s;
+    animation-fill-mode: both;
     transform: rotate(315deg);
+}
+
+.logo:hover, .logo:active {
+    animation-name: logo-lv;
+    animation-duration: 1s;
+    animation-fill-mode: both;
 }
