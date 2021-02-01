@@ -15,6 +15,14 @@ p {
     color: DarkSlateGray;
 }
 
+p#info {
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    padding: 4px 6px;
+    color: DarkSlateGray;
+}
+
 a:link, a:visited {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
@@ -62,14 +70,6 @@ a#l6:hover, a#l6:active {
 .column-right {
     width: 50%;
     float:right;
-}
-
-.bg-left {
-    margin: 0;
-    position: absolute;
-    height: 92vh;
-    width: 100%
-    background-color: #FF6663;
 }
 
 @keyframes logo-default {
