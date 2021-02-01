@@ -1,0 +1,69 @@
+@font-face {
+    font-family: gohufont;
+    src: url(font/gohufont.bdf);
+}
+
+body {
+    background-color: AliceBlue;
+}
+
+p {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    padding: 4px 6px;
+    color: DarkSlateGray;
+}
+
+a:link, a:visited {
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+    color: DarkSlateGray;
+    padding: 4px 6px;
+    text-decoration: none;
+    display: block;
+}
+
+a#l1:hover, a#l1:active {
+    background-color: #FF6663;
+}
+
+a#l2:hover, a#l2:active {
+    background-color: #FEB144;
+}
+
+a#l3:hover, a#l3:active {
+    background-color: #FDFD97;
+}
+
+a#l4:hover, a#l4:active {
+    background-color: #9EE09E;
+}
+
+a#l5:hover, a#l5:active {
+    background-color: #9EC1CF;
+}
+
+a#l6:hover, a#l6:active {
+    background-color: #CC99C9;
+}
+
+.container {
+  height: 95vh;
+  position: relative;
+}
+
+.column-left {
+    width: 50%;
+    float:left;
+}
+
+.column-right {
+    width: 50%;
+    float:right;
+}
+
+.logo {
+    transform: rotate(315deg);
+}
