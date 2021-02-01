@@ -13,6 +13,7 @@ p, a#header:link {
     font-size: 42px;
     padding: 4px 6px;
     color: DarkSlateGray;
+    display: none;
 }
 
 p#info {
