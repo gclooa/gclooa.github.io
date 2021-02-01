@@ -7,13 +7,12 @@ body {
     background-color: AliceBlue;
 }
 
-p, a#header:link {
+p {
     font-family: Montserrat, sans-serif;
     font-weight: 700;
     font-size: 42px;
     padding: 4px 6px;
     color: DarkSlateGray;
-    display: none;
 }
 
 p#info {
